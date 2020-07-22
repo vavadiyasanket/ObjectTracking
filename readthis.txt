@@ -1,0 +1,10 @@
+
+To run on video : python ObjectTracker.py --input videos/car_chase_01.mp4 --confidence 0.5 --threshold 0.3
+
+To run on webcam : python ObjectTracker.py --input camera --confidence 0.5 --threshold 0.3
+
+
+
+
+#note : confidence and threshold are optional arguements
+	you need to rename output.avi eveytime after the code finishes the process or gets terminated, else in the next run of the code, the file output.avi will get overwritten.
